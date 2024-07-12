@@ -1,5 +1,63 @@
+/* UNIVERSAL STYLES */
+*{
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+}
 
+body{
+      background-color: hsl(218, 23%, 16%);
+      color: hsl(193, 38%, 86%);
+      font-family: Manrope, Arial, Helvetica, sans-serif;
+}
 
+main{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+h1{
+      font-size: 28px;
+}
+
+/* QUOTE CARD */
+#quote-card{
+      background-color: hsl(217, 19%, 24%);
+      width: 540px;
+      height: 332px;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      position: relative;
+}
+
+#advice-title{
+      color: hsl(150, 100%, 66%);
+      font-weight: bold;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+}
+
+#dice-btn{
+      background-color: hsl(150, 100%, 66%);
+      height: 64px;
+      width: 64px;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      bottom: -32px;
+}
+
+#dice-btn:hover{
+      cursor: pointer;
+      box-shadow: 0px 0px 20px hsl(150, 100%, 66%);
+}
 
 /* FOOTER */
 .attribution { font-size: 11px; text-align: center; }
