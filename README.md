@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/michellecordovi/APIAdviceGenerator)
-- Live Site URL: [](https://michellecordovi.github.io/APIAdviceGenerator/)
+- Solution URL: ![](https://github.com/michellecordovi/APIAdviceGenerator)
+- Live Site URL: ![](https://michellecordovi.github.io/APIAdviceGenerator/)
 
 ## My process
 
