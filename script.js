@@ -33,6 +33,3 @@ const getAdvice = async () => {
              console.log(error)
       }
 }
-
-getAdvice();
-
