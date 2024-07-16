@@ -2,7 +2,7 @@
 const diceButton = document.getElementById("dice-btn");
 
 diceButton.onclick = () => {
-      diceButton.style.transition = "box-shadow 1s, transform 1.5s linear";
+      diceButton.style.transition = "box-shadow 1s, transform 1.5s ease-out";
       diceButton.style.boxShadow = "0px 0px 20px hsl(150, 100%, 66%)"
       diceButton.style.transform = "rotate(1turn)";
       getAdvice();
@@ -20,7 +20,7 @@ const getAdvice = async () => {
             const response = await fetch(endpoint);
             if (response.ok) {
                   const JSresponse = await response.json()
-                  randomAdvice.innerHTML = JSresponse.slip.advice;
+                  randomAdvice.innerHTML = '"' + JSresponse.slip.advice + '"';
                   adviceNum.innerHTML = JSresponse.slip.id;
                   
                   setTimeout(() => {

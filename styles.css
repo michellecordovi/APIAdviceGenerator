@@ -20,11 +20,13 @@ main{
 
 h1{
       font-size: 28px;
+      display: flex;
 }
 
 /* QUOTE CARD */
 #quote-card{
       background-color: hsl(217, 19%, 24%);
+      padding: 30px;
       width: 540px;
       height: 332px;
       border-radius: 15px;
